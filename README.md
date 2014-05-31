@@ -11,9 +11,9 @@ Using Fort.js is so simple, it's simple. All you do is insert `fort.min.js` and 
   <link rel="stylesheet" href="fort.min.css">
 </head>
 <body>
-<script>
-flash()
-</script>
+  <script>
+  flash()
+  </script>
 </body>
 ```
 
@@ -27,16 +27,26 @@ transition: all 1s;
 ```
 Additionally if you prefer the bottom rather the top, just change `top: 0;` to `bottom: 0;` in the stylesheet.
 
-Want to change the height? Crack open the stylesheet and change `height: 4px;` to your liking.
+Want to change the height? Open the stylesheet and change `height: 4px;` to your liking.
 
 
-**Gradients?**
-Yup. All preset in the stylesheet. Just comment the regular background and uncomment the gradient background. Now choose your colors!
 ##Effects
  * [Default](http://colourity.github.io/) -`solid()`
  * [Gradient](http://colourity.github.io/gradient) - `gradient()`
  * [Sections](http://colourity.github.io/sections) - `sections()`
  * [Flash](http://colourity.github.io/flash) - `flash()`
+
+
+
+**Changing the colors:**
+* Default - Fire up the stylesheet and simple change it with `background`
+
+* Gradient - Open up the stylesheet and look for `background` located in the `.top` selector.
+
+* Sections - You'll need to find `sections()` in the script. You'll see an array with called `cols`. Note that the colors are declared twice, this is to give it a crisp look.
+
+* Flash - Crack open the script and look for `flash()` then edit `var cols` with your desired colors.
+
 
 ##Coming soon
  * More setting
