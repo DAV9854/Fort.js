@@ -48,7 +48,7 @@ for (var j = els.length; j--;) {
     }
 }
 }
-
+//Edit colors here
 var cols = ["#1ABC9C","#EC7063","#3498DB"];
 }
 
@@ -109,7 +109,7 @@ for( i=0; i<l; i++) colours[i] = colours[i].join(" ");
 return "linear-gradient( to right, "+colours.join(", ")+")";
 }
 
-//Edit your colors here. Enter the color twice. 
+//Edit your colors here. Enter the color twice.
 var cols = [
 ["#1ABC9C","0%"],
 ["#1ABC9C","33.3%"],
