@@ -7,6 +7,7 @@
 }
 
 body {
+  text-align: center;
     background: #fff;
     color: #7b8993;
     font: 300 87.5%/1.5em 'Open Sans', sans-serif;
@@ -18,17 +19,6 @@ body {
     margin: 50px auto;
     position: relative;
     width: 375px;
-}
-
-@media only screen
-and (max-width : 320px) {
-    .form-wrapper {
-        padding-top: 10%;
-        border-radius: 2px;
-        margin: 50px auto;
-        position: relative;
-        width: 320px;
-    }
 }
 
 form {
@@ -64,6 +54,7 @@ form {
 }
 
 .button-panel .button {
+    -webkit-appearance: none;
     background: #009dff;
     border: none;
     border-radius: 2px;
@@ -80,8 +71,21 @@ form {
 }
 
 .button:hover {
+
     background: #00c8ff;
 }
+
+@media only screen
+and (max-width : 320px) {
+.form-wrapper {
+    padding-top: 10%;
+    border-radius: 2px;
+    margin: 50px auto;
+    position: relative;
+    width: 320px;
+}
+}
+
 
 .cent {
     text-align: center;
@@ -92,27 +96,34 @@ form {
     text-align: center;
     text-decoration: none;
     color: #7b8993;
-    padding-top: 5px;
+    padding-top: 10px;
 }
 
-.ref {
+#ref {
     text-align: center;
-    text-decoration: none;
+    text-decoration: underline;
     color: #7b8993;
     padding-top: 8px;
     font-size: 16px;
 }
 
-.ref:hover {
+#ref:hover {
     text-align: center;
-    text-decoration: none;
     color: #009dff;
+    text-decoration: underline;
     -webkit-animation: hue 60s infinite linear;
     padding-top: 8px;
     font-size: 16px;
 }
-
-.head {
-    color: #000;
-    text-align: center;
+ul li{
+display: inline-block;
+list-style-type: none;
+text-align: center;
+}
+.h1h{
+  color: #000;
+  text-align: center;
+}
+.lil{
+  display: inline-block;
 }
