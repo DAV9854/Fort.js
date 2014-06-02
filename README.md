@@ -26,7 +26,9 @@ Additionally if you prefer the bottom rather the top, just change `top: 0;` to `
 
 Want to change the height? Open the stylesheet and change `height: 4px;` to your liking.
 
+**Certain fields:**
 
+If you want to include only certain fields add a class named `ignore` to the field. Fort will not detect the field after you do so.
 ##Effects
  * [Default](http://colourity.github.io/) -`solid()`
  * [Gradient](http://colourity.github.io/gradient) - `gradient()`
@@ -46,11 +48,10 @@ Want to change the height? Open the stylesheet and change `height: 4px;` to your
 
 
 ##Coming soon
- * More settings
- * More effects. Have an idea? [Email](mailto:idris@colourity.com) us!
- * Option to only include certain forms/fields
- * jQuery version. (Early on we started with jQuery, but to keep things simple we went to pure JS. But it'll be back).
-
+ * More setting
+ * More effects. Have an idea? [Email](mailto:idris@colourity.com) me!
+ *jQuery version
+ 
 ##License
 Fort.js is licensed under the MIT license.(http://opensource.org/licenses/MIT)
 It's pretty simple, but here's the definition we get
@@ -60,7 +61,7 @@ The MIT License is a permissive license that is short and to the point. It lets 
 
 **Fort.js** is authored and maintained by Idris Khenchil
 
-Follow us on [Twitter](https://twitter.com/colourity) to say up to date!
 
 
-Feel free to check out the demo [here](http://colourity.github.io/). Used Fort in a project? I'd love to see it, [email](mailto:idris@colourity.com) us.
+
+Feel free to check out the demo [here](http://colourity.github.io/). Used Fort in a project? I'd love to see it, [email](mailto:idris@colourity.com) me.

@@ -16,7 +16,17 @@ var forms = document.querySelectorAll(".form"),
 for (var i = forms.length; i--;) {
     var els = forms[i].querySelectorAll("input, textarea, select");
     for (var j = els.length; j--;) {
-        if (els[j].type != "button" && els[j].type != "submit") {
+		classes = els[j].className.replace(/\s+/g, ' ').split(' ');
+		ignore = false;
+		for (var k = classes.length; k--;)
+		{
+			if (classes[k] == "ignore")
+			{
+				ignore = true;
+				break;
+			}
+		}
+        if (els[j].type != "button" && els[j].type != "submit" && !ignore) {
             inputs.push(els[j]);
             els[j].addEventListener("input", cback, false);
         }
@@ -48,7 +58,7 @@ for (var j = els.length; j--;) {
     }
 }
 }
-
+//Edit colors here
 var cols = ["#1ABC9C","#EC7063","#3498DB"];
 }
 
@@ -123,4 +133,8 @@ document.querySelector(".colors").style.background = generateCSSGradient(cols);
 
 var window_width = window.innerWidth + "px";
 document.querySelector(".colors").style.width = window_width;
+
+
+
+
 };
