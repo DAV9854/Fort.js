@@ -1,4 +1,4 @@
-    function flash(){
+function flash(){
 function cback(e) {
     var t = [];
     for (var n = inputs.length; n--;) {
@@ -97,8 +97,4 @@ document.querySelector(".colors").style.background = generateCSSGradient(cols);
 
 var window_width = window.innerWidth + "px";
 document.querySelector(".colors").style.width = window_width;
-
-
-
-  
 };
