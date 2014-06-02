@@ -122,12 +122,5 @@ document.querySelector(".colors").style.background = generateCSSGradient(cols);
 
 var window_width = window.innerWidth + "px";
 document.querySelector(".colors").style.width = window_width;
-<<<<<<< HEAD:demo/default/fort.js
 };
-=======
-
-
-
-
 }
->>>>>>> FETCH_HEAD:demo/default/fort.min.js
