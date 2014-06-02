@@ -102,7 +102,6 @@ for (var j = els.length; j--;) {
 }
 }
 
-
 function generateCSSGradient(colours) {
 var l = colours.length, i;
 for( i=0; i<l; i++) colours[i] = colours[i].join(" ");
@@ -123,8 +122,4 @@ document.querySelector(".colors").style.background = generateCSSGradient(cols);
 
 var window_width = window.innerWidth + "px";
 document.querySelector(".colors").style.width = window_width;
-
-
-
-
 };
