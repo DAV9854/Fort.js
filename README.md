@@ -36,7 +36,7 @@ Want to change the height? Open the stylesheet and change `height: 4px;` to your
 
 
 **Changing the colors:**
-* Default - Fire up the stylesheet and simply change it with `background`
+* Default - Fire up the stylesheet and simply change it with `background`.
 
 * Gradient - Open the stylesheet and look for `background` located in the `.top` selector.
 
@@ -46,9 +46,10 @@ Want to change the height? Open the stylesheet and change `height: 4px;` to your
 
 
 ##Coming soon
- * More setting
- * More effects. Have an idea? [Email](mailto:idris@colourity.com) me!
+ * More settings
+ * More effects. Have an idea? [Email](mailto:idris@colourity.com) us!
  * Option to only include certain forms/fields
+ * jQuery version. (Early on we started with jQuery, but to keep things simple we went to pure JS. But it'll be back).
 
 ##License
 Fort.js is licensed under the MIT license.(http://opensource.org/licenses/MIT)
@@ -59,7 +60,7 @@ The MIT License is a permissive license that is short and to the point. It lets 
 
 **Fort.js** is authored and maintained by Idris Khenchil
 
+Follow us on [Twitter](https://twitter.com/colourity) to say up to date!
 
 
-
-Feel free to check out the demo [here](http://colourity.github.io/). Used Fort in a project? I'd love to see it, [email](mailto:idris@colourity.com) me.
+Feel free to check out the demo [here](http://colourity.github.io/). Used Fort in a project? I'd love to see it, [email](mailto:idris@colourity.com) us.
