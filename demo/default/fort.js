@@ -109,10 +109,11 @@ for( i=0; i<l; i++) colours[i] = colours[i].join(" ");
 return "linear-gradient( to right, "+colours.join(", ")+")";
 }
 
+//Edit your colors here. Enter the color twice.
 var cols = [
 ["#1ABC9C","0%"],
 ["#1ABC9C","33.3%"],
-["#EC7063","33.3%"], // note same percentage - this gives a crisp change
+["#EC7063","33.3%"],
 ["#EC7063","66.6%"],
 ["#3498DB","66.6%"],
 ["#3498DB","100%"]
@@ -123,4 +124,3 @@ document.querySelector(".colors").style.background = generateCSSGradient(cols);
 var window_width = window.innerWidth + "px";
 document.querySelector(".colors").style.width = window_width;
 };
-}
