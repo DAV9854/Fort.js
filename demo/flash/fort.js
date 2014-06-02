@@ -97,4 +97,12 @@ document.querySelector(".colors").style.background = generateCSSGradient(cols);
 
 var window_width = window.innerWidth + "px";
 document.querySelector(".colors").style.width = window_width;
+<<<<<<< HEAD
 };
+=======
+
+
+
+  
+}
+>>>>>>> FETCH_HEAD
