@@ -127,4 +127,4 @@ document.querySelector(".colors").style.width = window_width;
 
 
 
-};
+}
