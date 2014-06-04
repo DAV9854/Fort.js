@@ -62,6 +62,6 @@ The MIT License is a permissive license that is short and to the point. It lets 
 **Fort.js** is authored and maintained by Idris Khenchil
 
 
-
+CoffeScript version by [jasteralan](https://github.com/jasteralan), right [here](https://github.com/jasteralan/Fort.js). Thanks! 
 
 Feel free to check out the demo [here](http://colourity.github.io/). Used Fort in a project? I'd love to see it, [email](mailto:idris@colourity.com) me.
