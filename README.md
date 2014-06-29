@@ -48,7 +48,7 @@ If you want to include only certain fields add a class named `ignore` to the fie
 
 
 ##Coming soon
- * More setting
+ * More settings
  * More effects. Have an idea? [Email](mailto:idris@colourity.com) me!
 
 ##License
