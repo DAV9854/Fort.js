@@ -50,8 +50,7 @@ If you want to include only certain fields add a class named `ignore` to the fie
 ##Coming soon
  * More setting
  * More effects. Have an idea? [Email](mailto:idris@colourity.com) me!
- *jQuery version
- 
+
 ##License
 Fort.js is licensed under the MIT license.(http://opensource.org/licenses/MIT)
 It's pretty simple, but here's the definition we get
