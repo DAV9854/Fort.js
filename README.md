@@ -47,6 +47,13 @@ If you want to include only certain fields add a class named `ignore` to the fie
 * Flash - Crack open the script and look for `flash()` then edit the variable `cols` with your desired colors.
 
 
+##Browser Support
+ * Safari 7.0 
+ * Opera 21 
+ * Mozzila Firefox 29 and up
+ * Google Chrome 34 and up
+ * Internet Exporer 8.0 and up 
+ 
 ##Coming soon
  * More settings
  * More effects. Have an idea? [Email](mailto:idris@colourity.com) me!
