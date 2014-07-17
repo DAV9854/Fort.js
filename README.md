@@ -4,7 +4,7 @@ Modern progress bar for form completion.
 All you do is add the form and Fort.js' algorithm will take care of the rest. Best of all, it's super small.
 
 ##Usage
-Using Fort is so simple, it's simple. All you do is insert `fort.min.js` and  `fort.min.css` into the `<head>` then pop in an `<input>` into `<div class="top">`. Anything outside of the `<div>` won't count. Now you just call the effect (Scroll down to the the "Effects" section for more). Yep, that's all there is to it. Fort does the rest.
+Using Fort is so simple, it's simple. All you do is insert `fort.min.js` and `fort.min.css` into the `<head>` then pop in an `<input>` into `<div class="form">`. Anything outside of the `<div>` won't count. Also insert `<div class="top"><div class="colors"></div></div>` into the `<body>`. Now you just call the effect (Scroll down to the the "Effects" section for more). Yep, that's all there is to it. Fort does the rest.
 ```html
 <head>
   <script src="fort.min.js"></script>
