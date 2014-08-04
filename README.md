@@ -11,6 +11,9 @@ Using Fort is so simple, it's simple. All you do is insert `fort.min.js` and `fo
   <link rel="stylesheet" href="fort.min.css">
 </head>
 <body>
+<div class="top">
+	<div class="colors"></div>
+</div>
   <script>
   flash()
   </script>
