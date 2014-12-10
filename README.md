@@ -59,7 +59,7 @@ If you want to include only certain fields add a class named `ignore` to the fie
  
 ##Coming soon
  * More settings
- * More effects. Have an idea? [Email](mailto:idris@colourity.com) me!
+ * More effects. Have an idea? [Email](mailto:idriskhenchil@gmail.com) me!
 
 ##License
 Fort.js is licensed under the MIT license.(http://opensource.org/licenses/MIT)
@@ -68,9 +68,9 @@ It's pretty simple, but here's the definition we get
 The MIT License is a permissive license that is short and to the point. It lets people do anything they want with your code as long as they provide attribution back to you and don't hold you liable.
 ##Acknowledgements
 
-**Fort.js** is authored and maintained by [Idris Khenchil](http://colourity.com/)
+**Fort.js** is authored and maintained by [Idris Khenchil](mailto:idriskhenchil@gmail.com)
 
 
 
 
-Feel free to check out the demo [here](https://colourity.github.io/). Used Fort in a project? I'd love to see it, [email](mailto:idris@colourity.com) me.
+Feel free to check out the demo [here](https://colourity.github.io/). Used Fort in a project? I'd love to see it, [email](mailto:idriskhenchil@gmail.com) me.
