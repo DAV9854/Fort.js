@@ -21,11 +21,11 @@ Using Fort is so simple, it's simple. All you do is insert `fort.min.js` and `fo
 ```
 
 
-Think the progress bar speed is too slow or too fast? No worries. In the stylesheet just change the speed to your desired liking.
+Think the progress bar speed is too slow or too fast? No worries. In `fort.min.css` just change the speed to your desired liking.
 ```css
 transition: all 1s;
 ```
-Additionally if you prefer the bottom rather the top, just change `top: 0;` to `bottom: 0;` in the stylesheet.
+Additionally if you prefer the bottom rather than the top, just change `top: 0;` to `bottom: 0;` in `fort.min.css`.
 
 Want to change the height? Open the stylesheet and change `height: 4px;` to your liking.
 
