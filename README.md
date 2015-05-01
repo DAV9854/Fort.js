@@ -68,7 +68,7 @@ It's pretty simple, but here's the definition we get
 The MIT License is a permissive license that is short and to the point. It lets people do anything they want with your code as long as they provide attribution back to you and don't hold you liable.
 ##Acknowledgements
 
-**Fort.js** is authored and maintained by [Idris Khenchil](mailto:idriskhenchil@gmail.com)
+**Fort.js** is authored and maintained by [Idris Khenchil](https://idriskhenchil.me)
 
 
 
