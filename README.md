@@ -20,6 +20,13 @@ Using Fort is so simple, it's simple. All you do is insert `fort.min.js` and `fo
 </body>
 ```
 
+Alternatively you can use [cdnjs.com](https://cdnjs.com/) to serve Fort.js
+```html
+<head>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/Fort.js/1.0.0/fort.min.js"></script>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Fort.js/1.0.0/fort.min.css">
+</head>
+```
 
 Think the progress bar speed is too slow or too fast? No worries. In `fort.min.css` just change the speed to your desired liking.
 ```css
