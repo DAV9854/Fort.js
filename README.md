@@ -44,6 +44,7 @@ If you want to include only certain fields add a class named `ignore` to the fie
  * [Gradient](https://colourity.github.io/gradient) - `gradient()`
  * [Sections](https://colourity.github.io/sections) - `sections()`
  * [Flash](https://colourity.github.io/flash) - `flash()`
+ * [Reverse](https://colourity.github.io/reverse) - `reverse()`
 
 
 
