@@ -37,11 +37,11 @@ Want to change the height? Open the stylesheet and change `height: 4px;` to your
 
 If you want to include only certain fields add a class named `ignore` to the field. Fort will not detect the field after you do so.
 ##Effects
- * [Default](https://colourity.github.io/) -`solid()`
- * [Gradient](https://colourity.github.io/gradient) - `gradient()`
- * [Sections](https://colourity.github.io/sections) - `sections()`
- * [Flash](https://colourity.github.io/flash) - `flash()`
- * [Reverse](https://colourity.github.io/reverse) - `reverse()`
+ * [Default](https://idriskhenchil.me/fort/) -`solid()`
+ * [Gradient](https://idriskhenchil.me/fort/gradient) - `gradient()`
+ * [Sections](https://idriskhenchil.me/fort/sections) - `sections()`
+ * [Flash](https://idriskhenchil.me/fort/flash) - `flash()`
+ * [Reverse](https://idriskhenchil.me/fort/merge) - `merge()`
 
 
 
@@ -78,4 +78,4 @@ The MIT License is a permissive license that is short and to the point. It lets 
 
 
 
-Feel free to check out the demo [here](https://colourity.github.io/). Used Fort in a project? I'd love to see it, [email](mailto:idriskhenchil@gmail.com) me.
+Feel free to check out the demo [here](https://idriskhenchil.me/fort). Used Fort in a project? I'd love to see it, [email](mailto:idriskhenchil@gmail.com) me.
