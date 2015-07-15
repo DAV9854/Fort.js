@@ -63,7 +63,7 @@ If you want to include only certain fields add a class named `ignore` to the fie
  * Internet Exporer 8.0 and up 
  
 ##Coming soon
- * More settings
+ * Ability to change colors easier
  * More effects. Have an idea? [Email](mailto:idriskhenchil@gmail.com) me!
 
 ##License
