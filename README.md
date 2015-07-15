@@ -37,7 +37,7 @@ Want to change the height? Open the stylesheet and change `height: 4px;` to your
 
 If you want to include only certain fields add a class named `ignore` to the field. Fort will not detect the field after you do so.
 ##Effects
- * [Default](https://idriskhenchil.me/fort/) -`solid()`
+ * [Default](https://idriskhenchil.me/fort/) - `solid()`
  * [Gradient](https://idriskhenchil.me/fort/gradient) - `gradient()`
  * [Sections](https://idriskhenchil.me/fort/sections) - `sections()`
  * [Flash](https://idriskhenchil.me/fort/flash) - `flash()`
