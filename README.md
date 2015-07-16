@@ -11,6 +11,11 @@ Using Fort is so simple, it's simple. All you do is insert `fort.min.js` and `fo
   <link rel="stylesheet" href="fort.min.css">
 </head>
 <body>
+<div class="form">
+  <form method="post">
+    <input type="text">
+  </form>
+</div>
   <script>
   flash()
   </script>
