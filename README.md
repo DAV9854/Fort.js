@@ -51,14 +51,15 @@ If you want to include only certain fields add a class named `ignore` to the fie
 
 
 **Changing the colors:**
-* Default - Fire up the stylesheet and simply change it with `background`.
+* Solid - `Fort.solid("#009DFF")` Keepin' it simple
 
-* Gradient - Open the stylesheet and look for `background` located in the `.top` selector.
+* Gradient - `Fort.gradient("#009DFF", "#47B9FF")` Note that only two values should be passed.
 
-* Sections - You'll need to find `sections()` in the script. Then you'll see an array named `cols`. Note that the colors are declared twice, this is to give it a crisp look.
+* Sections - `Fort.sections("#009DFF", "#4AF2A1", "#FB5229")` The more colors you add, the more sections you get!
 
-* Flash - Crack open the script and look for `flash()` then edit the variable `cols` with your desired colors.
+* Flash - `Fort.flash("#009DFF", "#000", "#6638F0");` Old school, yet unique.
 
+* Merge `Fort.merge("#009DFF");` *Tip*: Add a few more colors and see what you get (Not 100% tested)
 
 ##Browser Support
  * Safari 7.0 
@@ -68,7 +69,6 @@ If you want to include only certain fields add a class named `ignore` to the fie
  * Internet Exporer 8.0 and up 
  
 ##Coming soon
- * Ability to change colors easier (Almost done!)
  * More effects. Have an idea? [Email](mailto:idriskhenchil@gmail.com) me!
 
 ##License
