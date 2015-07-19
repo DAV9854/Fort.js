@@ -1,7 +1,7 @@
 #Fort.js
 
 Modern progress bar for form completion.
-All you do is add the form and Fort.js' algorithm will take care of the rest. Best of all, it's super small.
+All you do is add the form and Fort.js' algorithm will take care of the rest. Best of all, it's super small. [Check out the demo!](https://idriskhenchil.me/fort)
 
 ##Usage
 Using Fort is so simple, it's simple. All you do is insert `fort.min.js` and `fort.min.css` into the `<head>` then pop in an `<input>` into `<div class="form">`. Anything outside of the `<div>` won't count. Now you just call the effect (Scroll down to the the "Effects" section for more). Yep, that's all there is to it. Fort does the rest.
@@ -11,6 +11,11 @@ Using Fort is so simple, it's simple. All you do is insert `fort.min.js` and `fo
   <link rel="stylesheet" href="fort.min.css">
 </head>
 <body>
+<div class="form">
+  <form method="post">
+    <input type="text">
+  </form>
+</div>
   <script>
   flash()
   </script>
@@ -41,12 +46,11 @@ If you want to include only certain fields add a class named `ignore` to the fie
  * [Gradient](https://idriskhenchil.me/fort/gradient) - `gradient()`
  * [Sections](https://idriskhenchil.me/fort/sections) - `sections()`
  * [Flash](https://idriskhenchil.me/fort/flash) - `flash()`
- * [Reverse](https://idriskhenchil.me/fort/merge) - `merge()`
+ * [Merge](https://idriskhenchil.me/fort/merge) - `merge()`
 
 
 
 **Changing the colors:**
-
 * Solid - `Fort.solid("#009DFF")` Keepin' it simple
 
 * Gradient - `Fort.gradient("#009DFF", "#47B9FF")` Note that only two values should be passed.
@@ -65,7 +69,6 @@ If you want to include only certain fields add a class named `ignore` to the fie
  * Internet Exporer 8.0 and up 
  
 ##Coming soon
- * Ability to change colors easier
  * More effects. Have an idea? [Email](mailto:idriskhenchil@gmail.com) me!
 
 ##License
