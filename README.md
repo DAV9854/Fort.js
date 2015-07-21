@@ -17,7 +17,7 @@ Using Fort is so simple, it's simple. All you do is insert `fort.min.js` and `fo
   </form>
 </div>
   <script>
-  flash()
+      Fort.flash("#009DFF", "#000", "#6638F0");
   </script>
 </body>
 ```
