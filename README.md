@@ -65,7 +65,7 @@ If you want to include only certain fields add a class named `ignore` to the fie
  * More effects. Have an idea? [Email](mailto:idriskhenchil@gmail.com) me!
 
 ##License
-Fort.js is licensed under the MIT license.(http://opensource.org/licenses/MIT)
+Fort.js is licensed under the MIT license (http://opensource.org/licenses/MIT)
 It's pretty simple, but here's the definition we get
 
 The MIT License is a permissive license that is short and to the point. It lets people do anything they want with your code as long as they provide attribution back to you and don't hold you liable.
