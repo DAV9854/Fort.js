@@ -1,6 +1,6 @@
 var Fort = {
     solid: function solid(hex) {
-        document.body.innerHTML = '<div class="top-one" id="top1"><div class="colors"></div></div>' + document.body.innerHTML
+        document.body.innerHTML = '<div class="top-one" id="top1"><div class="colors"></div></div>' + document.body.innerHTML;
 
         function cback(e) {
             var t = [];
@@ -39,7 +39,7 @@ var Fort = {
     },
 
     gradient: function(firstColor, secondColor) {
-        document.body.innerHTML = '<div class="top-one" id="top1"><div class="colors"></div></div>' + document.body.innerHTML
+        document.body.innerHTML = '<div class="top-one" id="top1"><div class="colors"></div></div>' + document.body.innerHTML;
 
         function cback(e) {
             var t = [];
@@ -82,7 +82,7 @@ var Fort = {
             var args = Array.prototype.slice.call(arguments);
         }
 
-        document.body.innerHTML = '<div class="top-one" id="top1"><div class="colors"></div></div>' + document.body.innerHTML
+        document.body.innerHTML = '<div class="top-one" id="top1"><div class="colors"></div></div>' + document.body.innerHTML;
 
         function cback(e) {
             var t = [];
@@ -152,7 +152,7 @@ var Fort = {
         var args = Array.prototype.slice.call(arguments);
         var cols = args.sort();
 
-        document.body.innerHTML = '<div class="top-one" id="top1"><div class="colors"></div></div>' + document.body.innerHTML
+        document.body.innerHTML = '<div class="top-one" id="top1"><div class="colors"></div></div>' + document.body.innerHTML;
 
         function cback(e) {
             var t = [];
@@ -190,8 +190,8 @@ var Fort = {
     },
 
     merge: function(hex) {
-        document.body.innerHTML = '<div class="top-one" id="top1"><div class="colors"></div></div>' + document.body.innerHTML
-        document.body.innerHTML = '<div class="top-two" id="top2"><div class="colors"></div></div>' + document.body.innerHTML
+        document.body.innerHTML = '<div class="top-one" id="top1"><div class="colors"></div></div>' + document.body.innerHTML;
+        document.body.innerHTML = '<div class="top-two" id="top2"><div class="colors"></div></div>' + document.body.innerHTML;
 
         function cback(e) {
             var t = [];
@@ -241,5 +241,30 @@ var Fort = {
                 }
             }
         }
+    },
+    config: function(settings) {
+        var t1 = document.querySelector('#top1');
+        var t2 = document.querySelector('#top2') || {style:{}};
+        if (settings.height) {
+            t1.style.height = settings.height;
+            t2.style.height = settings.height;
+        }
+        if (settings.alignment) {
+            if (settings.alignment === 'top') {
+                t1.style.top = 0;
+                t1.style.bottom = 'auto';
+                t2.style.top = 0;
+                t2.style.bottom = 'auto';
+            } else {
+                t1.style.top = 'auto';
+                t1.style.bottom = 0;
+                t2.style.top = 'auto';
+                t2.style.bottom = 0;
+            }
+        }
+        if (settings.duration) {
+            t1.style.transitionDuration = settings.duration;
+            t2.style.transitionDuration = settings.duration;
+        }
     }
-}
+};
