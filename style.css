@@ -127,7 +127,7 @@ text-align: center;
 .lil{
   display: inline-block;
 }
-nav li {
+nav li a {
     color: #369;
     padding-right: 1em;
 }
