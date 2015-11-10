@@ -35,11 +35,11 @@ Want to change the height? Open the stylesheet and change `height: 4px;` to your
 
 If you want to include only certain fields add a class named `ignore` to the field. Fort will not detect the field after you do so.
 ##Effects
- * [Default](https://idriskhenchil.me/fort/) - `solid()`
- * [Gradient](https://idriskhenchil.me/fort/gradient) - `gradient()`
- * [Sections](https://idriskhenchil.me/fort/sections) - `sections()`
- * [Flash](https://idriskhenchil.me/fort/flash) - `flash()`
- * [Merge](https://idriskhenchil.me/fort/merge) - `merge()`
+ * [Default](http://idriskhenchil.me/fort/) - `solid()`
+ * [Gradient](http://idriskhenchil.me/fort/gradient) - `gradient()`
+ * [Sections](http://idriskhenchil.me/fort/sections) - `sections()`
+ * [Flash](http://idriskhenchil.me/fort/flash) - `flash()`
+ * [Merge](http://idriskhenchil.me/fort/merge) - `merge()`
 
 
 
@@ -71,9 +71,9 @@ It's pretty simple, but here's the definition we get
 The MIT License is a permissive license that is short and to the point. It lets people do anything they want with your code as long as they provide attribution back to you and don't hold you liable.
 ##Acknowledgements
 
-**Fort.js** is authored and maintained by [Idris Khenchil](https://idriskhenchil.me)
+**Fort.js** is authored and maintained by [Idris Khenchil](http://idriskhenchil.me)
 
 
 
 
-Feel free to check out the demo [here](https://idriskhenchil.me/fort). Used Fort in a project? I'd love to see it, [email](mailto:idriskhenchil@gmail.com) me.
+Feel free to check out the demo [here](http://idriskhenchil.me/fort). Used Fort in a project? I'd love to see it, [email](mailto:idriskhenchil@gmail.com) me.
