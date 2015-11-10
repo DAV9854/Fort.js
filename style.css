@@ -127,3 +127,7 @@ text-align: center;
 .lil{
   display: inline-block;
 }
+nav li {
+    color: #369;
+    padding-right: 1em;
+}
