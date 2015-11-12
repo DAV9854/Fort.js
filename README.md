@@ -41,8 +41,6 @@ If you want to include only certain fields add a class named `ignore` to the fie
  * [Flash](http://idriskhenchil.me/fort/flash) - `flash()`
  * [Merge](http://idriskhenchil.me/fort/merge) - `merge()`
 
-
-
 **Changing the colors:**
 * Solid - `Fort.solid("#009DFF")` Keepin' it simple
 
@@ -53,6 +51,25 @@ If you want to include only certain fields add a class named `ignore` to the fie
 * Flash - `Fort.flash("#009DFF", "#000", "#6638F0");` Old school, yet unique.
 
 * Merge `Fort.merge("#009DFF");` *Tip*: Add a few more colors and see what you get (Not 100% tested)
+
+##Custom Configuration
+Fort.js now supports a custom configuration, which offers the following properties
+
+`height`: Height in any CSS notation
+
+`duration`: Any time like '3s' or '200ms'
+
+`alignment`: Bottom or top
+
+**Example**
+
+    Fort.config({
+    	height: '20px',
+    	duration: '3s',
+    	alignment: 'bottom'
+    })
+    
+**Please note an effect must also be selected**
 
 ##Browser Support
  * Safari 7.0 
