@@ -22,15 +22,6 @@ Using Fort is so simple, it's simple. All you do is insert `fort.min.js` and `fo
 </body>
 ```
 
-
-Think the progress bar speed is too slow or too fast? No worries. In `fort.min.css` just change the speed to your desired liking.
-```css
-transition: all 1s;
-```
-Additionally if you prefer the bottom rather than the top, just change `top: 0;` to `bottom: 0;` in `fort.min.css`.
-
-Want to change the height? Open the stylesheet and change `height: 4px;` to your liking.
-
 **Certain fields:**
 
 If you want to include only certain fields add a class named `ignore` to the field. Fort will not detect the field after you do so.
@@ -53,7 +44,7 @@ If you want to include only certain fields add a class named `ignore` to the fie
 * Merge `Fort.merge("#009DFF");` *Tip*: Add a few more colors and see what you get (Not 100% tested)
 
 ##Custom Configuration
-Fort.js now supports a custom configuration, which offers the following properties
+Fort.js now supports custom configuration, which offers the following properties
 
 `height`: Height in any CSS notation
 
