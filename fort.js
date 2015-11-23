@@ -1,12 +1,23 @@
 var Fort = {
     clean: function clean() {
-        var hiddenInputs = document.querySelectorAll('input[type=hidden]')
-        Array.prototype.forEach.call(hiddenInputs, function(el){
-            if (el.classList)
-              el.classList.add('ignore');
-            else
-              el.className += ' ' + 'ignore';
-        });
+        var forms = document.querySelectorAll(".form");
+        for (var i = forms.length; i--;) {
+            var nonemptyelements = forms[i].querySelectorAll("input, textarea, select");
+            Array.prototype.forEach.call(nonemptyelements, function(el){
+              if (el.value.length != 0 )
+                if (el.classList)
+                    el.classList.add('ignore');
+                else
+                    el.className += ' ' + 'ignore';
+            });
+            var hiddenInputs = forms[i].querySelectorAll('input[type=hidden]')
+            Array.prototype.forEach.call(hiddenInputs, function(el){
+                if (el.classList)
+                  el.classList.add('ignore');
+                else
+                  el.className += ' ' + 'ignore';
+            });
+        };
     },
 
     solid: function solid(hex) {
