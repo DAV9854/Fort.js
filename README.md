@@ -31,6 +31,7 @@ If you want to include only certain fields add a class named `ignore` to the fie
  * [Sections](http://idriskhenchil.me/fort/sections) - `sections()`
  * [Flash](http://idriskhenchil.me/fort/flash) - `flash()`
  * [Merge](http://idriskhenchil.me/fort/merge) - `merge()`
+ * Dynamic (Coming Soon)
 
 **Changing the colors:**
 * Solid - `Fort.solid("#009DFF")` Keepin' it simple
