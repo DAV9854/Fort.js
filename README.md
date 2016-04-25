@@ -1,7 +1,7 @@
 #Fort.js
 
 Modern progress bar for form completion.
-All you do is add the form and Fort.js' algorithm will take care of the rest. Best of all, it's super small. [Check out the demo!](http://idriskhenchil.me/fort)
+All you do is add the form and Fort.js' algorithm will take care of the rest. Best of all, it's super small. [Check out the demo!](http://idriskhenchil.github.io/default/index.html)
 
 ##Usage
 Using Fort is so simple, it's simple. All you do is insert `fort.min.js` and `fort.min.css` into the `<head>` then pop in an `<input>` into `<div class="form">`. Anything outside of the `<div>` won't count. Now you just call the effect (Scroll down to the the "Effects" section for more). Yep, that's all there is to it. Fort does the rest.
@@ -26,12 +26,11 @@ Using Fort is so simple, it's simple. All you do is insert `fort.min.js` and `fo
 
 If you want to include only certain fields add a class named `ignore` to the field. Fort will not detect the field after you do so.
 ##Effects
- * [Default](http://idriskhenchil.me/fort/) - `solid()`
- * [Gradient](http://idriskhenchil.me/fort/gradient) - `gradient()`
- * [Sections](http://idriskhenchil.me/fort/sections) - `sections()`
- * [Flash](http://idriskhenchil.me/fort/flash) - `flash()`
- * [Merge](http://idriskhenchil.me/fort/merge) - `merge()`
- * Dynamic (Coming Soon)
+ * [Default](http://idriskhenchil.github.io/default/index.html) - `solid()`
+ * [Gradient](http://idriskhenchil.github.io/gradient/index.html) - `gradient()`
+ * [Sections](http://idriskhenchil.github.io/sections/index.html) - `sections()`
+ * [Flash](http://idriskhenchil.github.io/flash/index.html) - `flash()`
+ * [Merge](http://idriskhenchil.github.io/merge/index.html) - `merge()`
 
 **Changing the colors:**
 * Solid - `Fort.solid("#009DFF")` Keepin' it simple
@@ -80,8 +79,8 @@ It's pretty simple, but here's the definition we get
 The MIT License is a permissive license that is short and to the point. It lets people do anything they want with your code as long as they provide attribution back to you and don't hold you liable.
 ##Acknowledgements
 
-**Fort.js** is authored and maintained by [Idris Khenchil](http://idriskhenchil.me),
-feel free to check out the demo [here](http://idriskhenchil.me/fort). Used Fort in a project? I'd love to see it, [email](mailto:idriskhenchil@gmail.com) me.
+**Fort.js** is authored and maintained by Idris Khenchil,
+feel free to check out the demo [here](http://idriskhenchil.github.io/default/index.html). Used Fort in a project? I'd love to see it, [email](mailto:idriskhenchil@gmail.com) me.
 
 
 If you have a moment, check out [Magnitude](https://github.com/idriskhenchil/Magnitude/)! An ultra minimalistic screensaver for Mac.
