@@ -1,5 +1,7 @@
 #Fort.js
 
+[![CDNJS](https://img.shields.io/cdnjs/v/Fort.js.svg)](https://cdnjs.com/libraries/Fort.js)
+
 Modern progress bar for form completion.
 All you do is add the form and Fort.js' algorithm will take care of the rest. Best of all, it's super small. [Check out the demo!](http://idriskhenchil.github.io/default/index.html)
 
